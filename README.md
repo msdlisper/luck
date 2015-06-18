@@ -3,6 +3,13 @@
 ##使用项目
 * [amazeui] (http:amazeui.org)
 * [handlebars] (http://handlebarsjs.com)
-* [node-url] (http://nodejs.org/download/)
 
+##特点
+* 异步编程的实践
+* 单页面应用
 
+##TODO
+* 本地实例化
+
+##USAGE
+* 点开index.html即用
