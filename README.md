@@ -3,4 +3,5 @@
 ##使用项目
 [amazeui]: http:amazeui.org
 [handlebars]: http://handlebarsjs.com
+[node-url]: http://nodejs.org/download/
 
