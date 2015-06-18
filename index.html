@@ -159,7 +159,7 @@
 <script id='t-alert' type="text/x-handlebars-template">
   <div class="am-modal-dialog">
     <div class="am-modal-hd">中奖通知!
-      <a href="" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+     
     </div>
     <div class="am-modal-bd">
       Hi <span class='hi'> {{nu}}</span>号骚年, 你中奖了,奖品是<span class='hi'>{{award}}</span>
@@ -223,7 +223,7 @@
       $b.hasClass("am-active") ? $b.removeClass('start') : $b.addClass('start');
       var stop = true;
       var timeout = 500;
-      //while(!status && stop){//这种是异步的写法,根本没法玩
+      //while(!status && stop){//这种是同步的写法,根本没法玩
       //  timeout <1000 ? timeout+=50 : (stop=false);
       //  setTimeout(function(){
       //    console.log('1');	
